@@ -31,7 +31,7 @@ Here's an example that elucidates the way to convert a formula in mathematical n
 
 We can create a midpoint riemann sum, approximating the following integral
 
-$\sum_{-5}^{12} (x^2 - x + 3)dx \: where \: n = 40$
+$\sum_{-5}^12 (x^2 - x + 3)dx \: where \: n = 40$
 
 We must first find what values are important. From this we get the following:
 
