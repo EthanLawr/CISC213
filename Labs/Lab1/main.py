@@ -1,7 +1,9 @@
 """
 The program must be built using either C, C++, Java, or Python
 The program must support the following operations: Logical Implication, Logical Inequality, Exclusive Disjunction, Logical NAND, and Logical NOR
+
 """
+
 # Variables with userinput for test cases
 # While loop tests for correct parameters
 while True:
@@ -44,46 +46,26 @@ if bool1 is bool2:
     print("True")
 elif bool1 is not bool2:
     print("False")
-else:
-    print("Incorrect Parameters entered")
 
 # Exclusive Disjunction
 print("----------EXCLUSIVE DISJUNCTION----------")
-if bool1 == 0 and bool2 == 0:
+if bool1 is bool2:
     print("False")
-elif bool1 == 1 and bool2 == 0:
+elif bool1 is not bool2:
     print("True")
-elif bool1 == 0 and bool2 == 1:
-    print("True")
-elif bool1 == 1 and bool2 == 1:
-    print("False")
-else:
-    print("Incorrect parameters entered")
 
 # Logical NAND
 print("----------LOGICAL NAND----------")
-if bool1 == 0 and bool2 == 0:
-    print("False")
-elif bool1 == 1 and bool2 == 0:
+if bool1 == 1 and bool2 == 1:
     print("True")
-elif bool1 == 0 and bool2 == 1:
-    print("True")
-elif bool1 == 1 and bool2 == 1:
-    print("False")
 else:
-    print("Incorrect parameters entered")
+    print("False")
 
 # Logical NOR
 print("----------LOGICAL NOR----------")
 if bool1 == 0 and bool2 == 0:
     print("True")
-elif bool1 == 1 and bool2 == 0:
-    print("False")
-elif bool1 == 0 and bool2 == 1:
-    print("False")
-elif bool1 == 1 and bool2 == 1:
-    print("False")
 else:
-    print("Incorrect parameters entered")
+    print("False")
     
 print("----------PROGRAM END----------")
