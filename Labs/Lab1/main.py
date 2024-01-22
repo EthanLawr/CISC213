@@ -5,9 +5,11 @@ The program must support the following operations: Logical Implication, Logical 
 Pseudo-code:
 I will create a loop that tests for 2 valid True or False inputs.
 A class will be created that contains methods for each logical test.
-An output will be displayed using the class methods with the inputs.
+Each method will take the inputs and compare them to each other with their respective logical test. 
+The methods will then print their results based on the logical test. The results will be either True or False.
+Once the methods are complete the program will end.
 """
-
+Pseudocode does not indicate processing
 # Variables with userinput for test cases
 # While loop tests for correct parameters
 while True:
