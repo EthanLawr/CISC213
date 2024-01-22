@@ -9,7 +9,6 @@ Each method will take the inputs and compare them to each other with their respe
 The methods will then print their results based on the logical test. The results will be either True or False.
 Once the methods are complete the program will end.
 """
-Pseudocode does not indicate processing
 # Variables with userinput for test cases
 # While loop tests for correct parameters
 while True:
