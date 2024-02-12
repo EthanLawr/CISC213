@@ -1,14 +1,13 @@
 
 # How does one distinguish good programming style from bad programming style?
 
-### Introduction
+## Introduction
 
 The extent to which an implementation exhibits good programming style is somewhat subjective. Bad programming style results in code that is difficult to understand and as a result a nightmare to maintain.
 
-### Discussion
+## Discussion
 
 Take a look at the following Java and comment how you think this example might be modified in light of good programming style.
-
 
 ````java
 import java.util.Stack;
@@ -30,14 +29,16 @@ myStack8 = new Stack<Integer>( );
 
 Things to consider when forming your response include layout, indentation, white space, capitalization of variable and method names and comments. For more information on good programming style, see the Wikipedia entry listed in References, below.
 
-### References
+## References
 
 [Link to Wikipedia entry on programming style](https://en.wikipedia.org/wiki/Programming_style)
 
----------------
+---
+
 # Student Answer
 
 I have opted to use Cornell Universities style guidelines for the following code:
+
 ````java
 import java.util.Stack;
 

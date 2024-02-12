@@ -1,7 +1,7 @@
 
 # The role of Unified Modeling Language (UML) class diagram in software documentation
 
-### Introduction
+## Introduction
 
 When we build software utilizing a high-level, object-oriented programming language such as Java, not only do we have a vast library (sometimes called an application programming interface or API) at our disposal, we can define our own types as well. The definition of a type in this manner is enabled by a class specification. We can create super class, sub class relationships in which the super class is a "generalization" and the sub classes are "specialization".
 
@@ -9,9 +9,11 @@ When we build software utilizing a high-level, object-oriented programming langu
 
 Think back to Chris Ward's video on creating documentation. Explore some of the other videos on software documentation. How might the following UML class diagram be represented in the form of a Java class definition? This class diagram can be thought of as a genotype. Your class definition is considered a phenotype.
 
+<!-- markdownlint-disable MD033 -->
 <p align="center" width="100%">
-    <img src="./assets/UMLClass.png"> 
+    <img src="./assets/UMLClass.png" alt="UML Class Diagram">
 </p>
+<!-- markdownlint-enable MD033 -->
 
 ### References
 
@@ -21,7 +23,8 @@ Think back to Chris Ward's video on creating documentation. Explore some of the 
 
 [Link to Wikipedia entry on phenotype](https://en.wikipedia.org/wiki/Phenotype)
 
----------------
+---
+
 # Student Answer
 
 I believe this would be an apt presentation of a phenotype example of the provided diagram.
